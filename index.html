@@ -4,127 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Erro 404 - Falta de Pagamento</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            color: white;
-            background: #0b0b0b;
-            overflow: hidden;
-        }
-        
-        #background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            z-index: -1;
-        }
-        
-        .container {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 20px;
-        }
-        
-        h1 {
-            font-size: 90px;
-            margin: 0;
-        }
-        
-        h2 {
-            font-size: 28px;
-            margin-top: 10px;
-        }
-        
-        p {
-            max-width: 600px;
-            opacity: 0.8;
-        }
-        
-        .button {
-            margin-top: 25px;
-            padding: 12px 25px;
-            background: #0077ff;
-            border: none;
-            border-radius: 6px;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-        
-        .button:hover {
-            background: #0056cc;
-            transform: scale(1.05);
-        }
-        
-        .code {
-            background: #111;
-            padding: 15px;
-            margin-top: 20px;
-            border-radius: 8px;
-            font-family: monospace;
-            color: #00ff9c;
-        }
-    </style>
-
+    <title>Hotel Orla</title>
+    <script type="module" crossorigin src="/assets/index-BNDdCkMx.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CWkhNFXG.css">
 </head>
 
 <body>
-
-    <div id="background"></div>
-
-    <div class="container">
-
-        <h1>404</h1>
-        <h2>Erro crítico detectado</h2>
-
-        <p>
-            Este site foi temporariamente removido da internet devido à ausência de transferência financeira para o programador responsável.
-        </p>
-
-        <div class="code">
-            if (pagamento == false) { <br> &nbsp;&nbsp;&nbsp;&nbsp;site.status = "offline"; <br> }
-        </div>
-
-        <button class="button" onclick="alert('💰 Efetue o pagamento ao programador para restaurar o site.')">
-Regularizar Pagamento
-</button>
-
-    </div>
-
-    <!-- THREE JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-
-    <!-- VANTA -->
-    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
-
-    <script>
-        VANTA.NET({
-            el: "#background",
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 200,
-            minWidth: 200,
-            scale: 1,
-            scaleMobile: 1,
-            color: 0x0077ff,
-            backgroundColor: 0x0b0b0b,
-            points: 12,
-            maxDistance: 22,
-            spacing: 18
-        })
-    </script>
-
+    <div id="root"></div>
 </body>
 
 </html>
